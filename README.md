@@ -66,3 +66,15 @@ src/
 - For testnet trading, set `USE_TESTNET=true` in `.env`.
 
 ##
+
+## Example Usage
+
+Market Order:
+```shell
+python src/orders/market_orders.py BTCUSDT BUY 0.01
+```
+
+Limit Order:
+```shell
+python src/orders/limit_orders.py BTCUSDT SELL 0.01 75000
+```
