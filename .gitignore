@@ -16,10 +16,6 @@ __pycache__/
 # Environment variables and secrets
 .env
 
-# Logs and reports
-bot.log
-report.pdf
-
 # VS Code settings (optional)
 .vscode/
 
