@@ -1,0 +1,26 @@
+.vscode/
+.history/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.tmp
+*.log
+*.bak
+*.swp
+*.DS_Store
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+
+# Logs and reports
+bot.log
+report.pdf
+
+# VS Code settings (optional)
+.vscode/
+
+# OS generated files
