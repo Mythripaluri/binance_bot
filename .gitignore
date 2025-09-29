@@ -1,21 +1,82 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
 .vscode/
 .history/
 .idea/
 *.sublime-workspace
 *.sublime-project
 *.code-workspace
+
+# OS files
 *.tmp
 *.bak
 *.swp
 *.DS_Store
-# Python cache and compiled files
-__pycache__/
-*.pyc
+Thumbs.db
+Desktop.ini
 
-# Environment variables and secrets
-.env
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+trading_data.db
+portfolio.db
 
-# VS Code settings (optional)
-.vscode/
+# Log files
+*.log
+logs/
+bot.log
+
+# Trading data and results
+data/
+backtest_results/
+strategy_results/
+
+# Config files with sensitive data
+config.ini
+settings.json
+api_keys.txt
+secrets.txt
+
+# Test coverage
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Temporary files
+temp/
+tmp/
+.temp/
+.tmp/
 
 # OS generated files
