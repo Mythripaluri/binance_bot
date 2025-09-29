@@ -11,3 +11,16 @@
 2025-09-11T04:19:40.918657+0530 | INFO | Account position mode: {'dualSidePosition': False}
 2025-09-11T04:19:41.439284+0530 | INFO | Placing MARKET BUY BTCUSDT qty=0.01
 2025-09-11T04:19:41.583413+0530 | INFO | Response: {'orderId': 5645582897, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'SNezQWU9Ktt2IKabPqzAJ9', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1757544582178}
+2025-09-29T15:33:54.894676+0530 | WARNING | Email credentials not configured. Email notifications disabled.
+2025-09-29T15:33:54.894676+0530 | WARNING | Discord webhook URL not configured. Discord notifications disabled.
+2025-09-29T15:42:07.724919+0530 | WARNING | Email credentials not configured. Email notifications disabled.
+2025-09-29T15:42:07.724919+0530 | WARNING | Discord webhook URL not configured. Discord notifications disabled.
+2025-09-29T15:43:36.579883+0530 | WARNING | Email credentials not configured. Email notifications disabled.
+2025-09-29T15:43:36.579883+0530 | WARNING | Discord webhook URL not configured. Discord notifications disabled.
+2025-09-29T15:45:35.090636+0530 | WARNING | Email credentials not configured. Email notifications disabled.
+2025-09-29T15:45:35.090636+0530 | WARNING | Discord webhook URL not configured. Discord notifications disabled.
+2025-09-29T15:45:35.105528+0530 | ERROR | Example execution failed: You can only execute one statement at a time.
+2025-09-29T15:49:39.539775+0530 | WARNING | Email credentials not configured. Email notifications disabled.
+2025-09-29T15:49:39.539775+0530 | WARNING | Discord webhook URL not configured. Discord notifications disabled.
+2025-09-29T15:49:39.547471+0530 | ERROR | Portfolio summary failed: You can only execute one statement at a time.
+2025-09-29T15:51:03.157807+0530 | INFO | Test log message

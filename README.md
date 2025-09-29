@@ -3,12 +3,11 @@
 <div align="center">
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Binance API](https://img.shields.io/badge/Binance-API-yellow.svg)](https://binance-docs.github.io/apidocs/)
 
 **A professional-grade trading platform transformed from a basic bot into an enterprise-level solution**
 
-*Demonstrating advanced software engineering, financial systems knowledge, and production-ready architecture*
+_Demonstrating advanced software engineering, financial systems knowledge, and production-ready architecture_
 
 </div>
 
@@ -19,12 +18,14 @@
 This project showcases the transformation from a **basic trading bot** to a **professional trading platform**, demonstrating:
 
 ### 🎯 **v1.0 - Basic Trading Bot** (Original Requirements)
+
 - ✅ Market & Limit Orders
-- ✅ Binance API Integration  
+- ✅ Binance API Integration
 - ✅ CLI Interface
 - ✅ Basic Logging & Error Handling
 
 ### � **v2.0 - Professional Trading Platform** (Enhanced Features)
+
 - 📊 **Portfolio Management** - Complete P&L tracking and analytics
 - ⚖️ **Risk Management** - Position sizing and portfolio risk controls
 - 📈 **Technical Analysis** - RSI, MACD, Bollinger Bands, signal generation
@@ -39,6 +40,7 @@ This project showcases the transformation from a **basic trading bot** to a **pr
 ## ✨ **Key Features & Architecture**
 
 ### �️ **Professional CLI Interface**
+
 ```bash
 # Comprehensive command structure
 python -m src.main --help
@@ -85,6 +87,7 @@ python -m src.main order trailing-stop BTCUSDT SELL 0.5 --callback 2.0
 ```
 
 ### 🔧 **Technical Stack**
+
 - **Core**: Python 3.8+, AsyncIO, Click CLI
 - **Trading**: Binance API, WebSocket streams
 - **Data**: Pandas, NumPy for analysis
@@ -98,6 +101,7 @@ python -m src.main order trailing-stop BTCUSDT SELL 0.5 --callback 2.0
 ## 🚀 **Quick Start**
 
 ### 1. **Installation**
+
 ```bash
 git clone https://github.com/Mythripaluri/binance_bot.git
 cd binance_bot
@@ -112,6 +116,7 @@ pip install -r requirements.txt
 ```
 
 ### 2. **Configuration**
+
 ```bash
 # Copy environment template
 cp .env.example .env
@@ -123,6 +128,7 @@ USE_TESTNET=true  # ALWAYS start with testnet!
 ```
 
 ### 3. **System Test**
+
 ```bash
 # Run system validation
 python test_system.py
@@ -135,6 +141,7 @@ python -m src.main --help
 ```
 
 ### 4. **First Steps**
+
 ```bash
 # Check account info
 python -m src.main account info
@@ -154,6 +161,7 @@ python -m src.main analysis signals BTCUSDT
 ## 📚 **Advanced Usage Examples**
 
 ### 💼 **Portfolio Management**
+
 ```bash
 # Get comprehensive portfolio summary
 python -m src.main portfolio summary
@@ -166,6 +174,7 @@ python -m src.main portfolio performance --timeframe 1w
 ```
 
 ### 📊 **Technical Analysis**
+
 ```bash
 # Get technical signals
 python -m src.main analysis signals BTCUSDT --timeframe 4h
@@ -178,6 +187,7 @@ python -m src.main analysis monitor --symbols BTCUSDT,ETHUSDT --alerts
 ```
 
 ### 🎯 **Risk Management**
+
 ```bash
 # Configure risk parameters
 python -m src.main risk configure \
@@ -193,6 +203,7 @@ python -m src.main risk position-size BTCUSDT 50000 --risk 1.5
 ```
 
 ### 🏛️ **Advanced Orders**
+
 ```bash
 # Iceberg order (hide large orders)
 python -m src.main order iceberg BTCUSDT BUY 5.0 45000 --chunks 20
@@ -209,6 +220,7 @@ python -m src.main order trailing-stop BTCUSDT SELL 2.0 --callback 1.5
 ## 🎓 **Educational Value & Skills Demonstrated**
 
 ### 💻 **Software Engineering Excellence**
+
 - **Clean Architecture**: Modular design with separation of concerns
 - **Async Programming**: WebSocket handling and concurrent operations
 - **Error Handling**: Comprehensive exception handling and recovery
@@ -216,12 +228,14 @@ python -m src.main order trailing-stop BTCUSDT SELL 2.0 --callback 1.5
 - **Documentation**: Professional-grade documentation and examples
 
 ### 📈 **Financial Systems Knowledge**
+
 - **Risk Management**: Portfolio theory and position sizing algorithms
 - **Technical Analysis**: Financial indicators and signal generation
 - **Order Management**: Advanced order types and execution strategies
 - **Real-time Processing**: Market data streams and event handling
 
 ### 🛠️ **Production Readiness**
+
 - **Database Design**: Persistent storage and data modeling
 - **Logging & Monitoring**: Structured logging and alerting systems
 - **Configuration Management**: Environment-based configuration
@@ -277,12 +291,14 @@ binance_bot/
 ## 🚨 **Important Notes**
 
 ### 🔒 **Security & Safety**
+
 - **🚨 ALWAYS use testnet first**: Set `USE_TESTNET=true`
 - **🔐 Never commit API keys**: Use `.env` file (excluded by `.gitignore`)
 - **💰 Start small**: Test with minimal amounts on live trading
 - **📊 Understand risks**: Trading involves financial risk
 
-### ⚡ **Performance & Reliability** 
+### ⚡ **Performance & Reliability**
+
 - **🔄 Error handling**: Comprehensive exception handling
 - **📝 Logging**: All operations logged for debugging
 - **💾 Data persistence**: Trade history stored in SQLite
@@ -295,18 +311,21 @@ binance_bot/
 This project demonstrates:
 
 ### 🏆 **Technical Competencies**
+
 - **Advanced Python**: AsyncIO, decorators, context managers, type hints
 - **API Integration**: RESTful APIs, WebSocket connections, rate limiting
 - **Database Design**: Schema design, queries, data modeling
 - **Software Architecture**: Clean code, SOLID principles, design patterns
 
 ### 📊 **Domain Expertise**
+
 - **Financial Markets**: Understanding of trading mechanics and market structure
 - **Risk Management**: Implementation of professional risk controls
 - **Data Analysis**: Technical indicators and statistical analysis
 - **Real-time Systems**: Event-driven architecture and stream processing
 
 ### 🚀 **Professional Skills**
+
 - **Problem Solving**: Evolution from basic to advanced solution
 - **Documentation**: Clear, comprehensive project documentation
 - **Testing**: System validation and quality assurance
@@ -318,7 +337,6 @@ This project demonstrates:
 
 - **Author**: Mythri Prasanna Paluri
 - **Repository**: [https://github.com/Mythripaluri/binance_bot](https://github.com/Mythripaluri/binance_bot)
-- **LinkedIn**: [Connect for internship opportunities]
 
 ---
 
@@ -326,6 +344,6 @@ This project demonstrates:
 
 **Built with ❤️ for learning and professional development**
 
-*This project showcases the journey from basic requirements to enterprise-grade solution*
+_This project showcases the journey from basic requirements to enterprise-grade solution_
 
 </div>
